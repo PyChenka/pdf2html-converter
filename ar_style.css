@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  direction: rtl;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  color: #272727;
+}
+
+.law-title {
+  font-weight: 700;
+  line-height: 1.75;
+  font-size: 16px;
+}
+
+.law-title:not(:first-child) {
+  margin: 26px 0 18px;
+}
+
+.main {
+  line-height: 2;
+  font-size: 20px;
+}
+
+.law-text {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.law-line {
+  width: 50%;
+  height: 1px;
+  background: #404040;
+  margin: 30px auto 50px;
+}
+
+.bold {
+  font-weight: 700;
+  display: inline-block;
+}
+
+.law-text.bold {
+  display: block;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.italic {
+  font-weight: 200;
+  font-style: italic;
+}
